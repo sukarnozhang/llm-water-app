@@ -1,20 +1,17 @@
 {
-  "name": "backend",
+  "name": "llm-pdf-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "dotenv": "^17.2.0",
-    "express": "^5.1.0",
-    "faiss-node": "^0.5.1",
-    "openai": "^5.10.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.20.0",
     "pdf-parse": "^1.1.1"
   }
 }
